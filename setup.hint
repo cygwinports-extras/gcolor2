@@ -1,0 +1,4 @@
+category: Graphics Gnome
+requires: cygwin gtk2-x11-runtime
+sdesc: "GTK2 color selector utility"
+ldesc: "GTK2 color selector utility"

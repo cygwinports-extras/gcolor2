@@ -1,0 +1,91 @@
+gcolor2
+-------------------------------------------
+A GTK2 color selector utility
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  atk-runtime-1.9.1-1
+  expat-1.95.8-1
+  glib2-runtime-2.6.5-1
+  gtk2-x11-runtime-2.6.8-1
+  libXft2-2.1.6-1
+  libfontconfig1-2.2.2-1
+  libfreetype26-2.1.9-1
+  libiconv2-1.9.2-1
+  libintl3-0.14.1-1
+  pango-runtime-1.8.1-1
+  xorg-x11-bin-dlls-6.8.2.0-1
+  zlib-1.2.3-1
+
+Build requirements:
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-1
+  gcc-core-3.4.4-1
+  intltool-0.33-1
+  make-3.80-1
+  sed-4.1.4-1
+
+  atk-devel-1.9.1-1
+  expat-1.95.8-1
+  gettext-0.14.1-1
+  glib2-devel-2.6.5-1
+  gtk2-x11-devel-2.6.8-1
+  libXft-devel-2.1.6-1
+  libfontconfig-devel-2.2.2-1
+  libfreetype2-devel-2.1.9-1
+  libiconv-1.9.2-1
+  pango-devel-1.8.1-1
+  xorg-x11-devel-6.8.2.0-1
+  zlib-1.2.3-1
+
+Canonical homepage:
+  http://gcolor2.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gcolor2/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gcolor2-0.4-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gcolor2-0.4-1.sh all
+
+This will create:
+  /usr/src/gcolor2-0.4-1-src.tar.bz2
+  /usr/src/gcolor2-0.4-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gcolor2.exe
+  /usr/share/applications/gcolor2.desktop
+  /usr/share/doc/Cygwin/gcolor2-0.4.README
+  /usr/share/doc/gcolor2-0.4/AUTHORS
+  /usr/share/doc/gcolor2-0.4/ChangeLog
+  /usr/share/doc/gcolor2-0.4/COPYING
+  /usr/share/doc/gcolor2-0.4/INSTALL
+  /usr/share/doc/gcolor2-0.4/NEWS
+  /usr/share/doc/gcolor2-0.4/README
+  /usr/share/pixmaps/gcolor2/about_icon.png
+  /usr/share/pixmaps/gcolor2/icon.png
+
+------------------
+
+Port Notes:
+
+----- version 0.4-1 -----
+Version bump.
+
+----- version 0.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
