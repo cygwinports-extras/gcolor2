@@ -1,4 +1,4 @@
 category: Graphics Gnome
-requires: cygwin gtk2-x11-runtime
+requires: cygwin glib2 atk gdk-pixbuf2 gtk2-x11 libintl8 rgb
 sdesc: "GTK2 color selector utility"
 ldesc: "GTK2 color selector utility"

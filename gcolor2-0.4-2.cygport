@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ color selector"
+HOMEPAGE="http://gcolor2.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+PATCH_URI="
+	mirror://portage/x11-misc/${PN}/files/modular-rgb.patch
+	mirror://portage/x11-misc/${PN}/files/${P}-amd64.patch
+	mirror://portage/x11-misc/${PN}/files/${P}-pkg-config-macro.patch
+"
