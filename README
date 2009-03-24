@@ -3,26 +3,25 @@ gcolor2
 A GTK2 color selector utility
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  atk-1.20.0-1
-  gdk-pixbuf2-2.12.3-1
-  glib2-2.14.5-1
-  gtk2-x11-2.12.3-1
-  libintl8-0.15-1
+  cygwin-1.7.0-44
+  libatk1.0_0-1.20.0-1
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libintl8-0.17-10
   rgb-1.0.1-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.25-7
-  autoconf2.5-2.61-1
-  automake1.6-1.6.3-3
-  binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
-  gcc-core-3.4.4-3
-  intltool-0.36.3-1
-  make-3.81-1
-  pkg-config-0.21-1
+  autoconf2.5-2.63-10
+  automake1.6-1.6.3-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  pkg-config-0.23-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -34,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gcolor2-0.4-1-src.tar.bz2
+  unpack gcolor2-0.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gcolor2-0.4-1.cygport all
+  cygport ./gcolor2-0.4-X.cygport all
 
 This will create:
-  /usr/src/gcolor2-0.4-1-src.tar.bz2
-  /usr/src/gcolor2-0.4-1.tar.bz2
+  /usr/src/gcolor2-0.4-X-src.tar.bz2
+  /usr/src/gcolor2-0.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -50,11 +49,9 @@ Files included in the binary package:
 
   /usr/bin/gcolor2.exe
   /usr/share/applications/gcolor2.desktop
-  /usr/share/doc/Cygwin/gcolor2-0.4.README
-  /usr/share/doc/gcolor2-0.4/AUTHORS
-  /usr/share/doc/gcolor2-0.4/COPYING
-  /usr/share/doc/gcolor2-0.4/ChangeLog
-  /usr/share/doc/gcolor2-0.4/INSTALL
+  /usr/share/doc/gcolor2/AUTHORS
+  /usr/share/doc/gcolor2/COPYING
+  /usr/share/doc/gcolor2/ChangeLog
   /usr/share/pixmaps/gcolor2/about_icon.png
   /usr/share/pixmaps/gcolor2/icon.png
 
@@ -62,14 +59,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.4-2 -----
-Rebuilt with Gentoo patches for modular X11 rgb.
-
------ version 0.4-1 -----
-Version bump.
-
------ version 0.3-1 -----
-Initial release for Cygwin.
+----- version 0.4-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

@@ -8,3 +8,10 @@ PATCH_URI="
 	mirror://portage/x11-misc/${PN}/files/${P}-amd64.patch
 	mirror://portage/x11-misc/${PN}/files/${P}-pkg-config-macro.patch
 "
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	make_desktop_entry gcolor2 "Color Selector" /usr/share/pixmaps/gcolor2/icon.png "Graphics"
+}
