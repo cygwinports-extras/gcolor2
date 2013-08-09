@@ -1,0 +1,23 @@
+inherit gnome2
+
+NAME="gcolor2"
+VERSION=0.4
+RELEASE=10
+CATEGORY="Graphics"
+SUMMARY="GTK2 color selector utility"
+DESCRIPTION="GTK2 color selector utility"
+REQUIRES="rgb"
+HOMEPAGE="http://gcolor2.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gcolor2/gcolor2-${VERSION}.tar.gz"
+PATCH_URI="
+	mirror://portage/x11-misc/gcolor2/files/modular-rgb.patch
+	mirror://portage/x11-misc/gcolor2/files/gcolor2-0.4-amd64.patch
+	mirror://portage/x11-misc/gcolor2/files/gcolor2-0.4-pkg-config-macro.patch
+"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	make_desktop_entry gcolor2 "Color Selector" /usr/share/pixmaps/gcolor2/icon.png "Graphics"
+}
